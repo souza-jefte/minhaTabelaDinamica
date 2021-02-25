@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="./folhaDeEstilo.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div class="box-pesquisa">
+      <label for="fpesquisa">Buscar: </label>
+      <input
+        type="text"
+        id="fpesquisa"
+        name="fPesquisa"
+        placeholder="Pesquisar nome ou sobrenome ..."
+      />
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Sobrenome</th>
+          <th>Pontos</th>
+          <th>Ação</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div class="modal-container" id="modal-tela">
+      <div class="modal">
+        <button class="fechar">&times;</button>
+        <div class="content">
+          <div>
+            <form name="myForm" action="#">
+              <label for="fname">Nome:</label>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Seu nome.."
+              />
+
+              <label for="lname">Sobrenome:</label>
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Seu sobrenome.."
+              />
+
+              <label for="lpontos">Pontos:</label>
+              <input
+                type="text"
+                id="lpontos"
+                name="points"
+                placeholder="Seus pontos.."
+              />
+
+              <div class="input-box">
+                <input type="submit" name="btnSalvar" value="Editar" />
+                <input type="button" name="btnDeletar" value="Deletar" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script defer src="./javascript.js"></script>
+</html>
