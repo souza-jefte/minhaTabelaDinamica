@@ -12,6 +12,10 @@ de dados em javascript puro.
 4. A linha selecionada na tabela se destaca das demais ganhando certo destaque com relação as outras.
 5. O sistema desconsidera espaços em branco no final e no inicio da palavra digitada.
 
+## Pontos negativos:
+Ainda falta colocar responsividade na aplicação para que se adeque a dispositivos moveis. O codigo ainda não esta 100% estruturado e dividido
+podendo gerar confusão aos inciantes em programação.
+
 ## Como usar o sistema ?
 Para usar o sistema é so pesquisar no campo de texto quais linhas deseja ver e clicar em ENTER. 
 ao clicar em ENTER sem digitar conteudo o sistema busca todas as linhas; caso o usuario digite somente espaços em branco no campo de busca
